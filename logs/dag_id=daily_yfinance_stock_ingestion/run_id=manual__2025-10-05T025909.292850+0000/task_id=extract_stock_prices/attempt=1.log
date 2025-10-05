@@ -1,0 +1,36 @@
+[2025-10-05T02:59:12.000+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-05T02:59:12.012+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.extract_stock_prices manual__2025-10-05T02:59:09.292850+00:00 [queued]>
+[2025-10-05T02:59:12.019+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.extract_stock_prices manual__2025-10-05T02:59:09.292850+00:00 [queued]>
+[2025-10-05T02:59:12.020+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-05T02:59:12.154+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): extract_stock_prices> on 2025-10-05 02:59:09.292850+00:00
+[2025-10-05T02:59:12.161+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=261) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-05T02:59:12.164+0000] {standard_task_runner.py:72} INFO - Started process 264 to run task
+[2025-10-05T02:59:12.162+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_yfinance_stock_ingestion', 'extract_stock_prices', 'manual__2025-10-05T02:59:09.292850+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/daily_stock_ingestion.py', '--cfg-path', '/tmp/tmpxh0bm_wc']
+[2025-10-05T02:59:12.165+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask extract_stock_prices
+[2025-10-05T02:59:12.204+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_yfinance_stock_ingestion.extract_stock_prices manual__2025-10-05T02:59:09.292850+00:00 [running]> on host 3c693694ef07
+[2025-10-05T02:59:12.270+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_yfinance_stock_ingestion' AIRFLOW_CTX_TASK_ID='extract_stock_prices' AIRFLOW_CTX_EXECUTION_DATE='2025-10-05T02:59:09.292850+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-05T02:59:09.292850+00:00'
+[2025-10-05T02:59:12.272+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-05T02:59:12.283+0000] {logging_mixin.py:190} WARNING - /opt/***/dags/daily_stock_ingestion.py:34 FutureWarning: YF.download() has changed argument auto_adjust default to True
+[2025-10-05T02:59:10.773+0000] {logging_mixin.py:190} WARNING - [                       0%                       ]
+[2025-10-05T02:59:10.774+0000] {logging_mixin.py:190} WARNING - [*********************100%***********************]  2 of 2 completed
+[2025-10-05T02:59:10.787+0000] {python.py:240} INFO - Done. Returned value was: Ticker            AMZN              ...        GOOG          
+Price             Open        High  ...       Close    Volume
+Date                                ...                      
+2025-01-16  224.419998  224.649994  ...  193.782425  13449600
+2025-01-17  225.839996  226.509995  ...  196.912308  22109100
+2025-01-21  228.899994  231.779999  ...  198.985580  19005200
+2025-01-22  232.020004  235.440002  ...  199.384293  15477400
+2025-01-23  234.100006  235.520004  ...  198.935745  15170800
+...                ...         ...  ...         ...       ...
+2025-09-29  220.080002  222.600006  ...  244.360001  23157200
+2025-09-30  222.029999  222.240005  ...  243.550003  22541200
+2025-10-01  217.360001  222.149994  ...  245.539993  23967700
+2025-10-02  221.009995  222.809998  ...  246.429993  20657500
+2025-10-03  223.440002  224.199997  ...  246.449997  19935800
+
+[180 rows x 10 columns]
+[2025-10-05T02:59:10.886+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-05T02:59:10.887+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_yfinance_stock_ingestion, task_id=extract_stock_prices, run_id=manual__2025-10-05T02:59:09.292850+00:00, execution_date=20251005T025909, start_date=20251005T025912, end_date=20251005T025910
+[2025-10-05T02:59:10.919+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-05T02:59:10.940+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-05T02:59:10.943+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

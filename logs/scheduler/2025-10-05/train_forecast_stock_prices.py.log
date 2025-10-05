@@ -735,3 +735,179 @@
 [2025-10-05T02:49:39.443+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:49:39.443+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-10-05T02:49:39.466+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:49:39.465+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 02:30:00+00:00, run_after=2025-10-06 02:30:00+00:00
 [2025-10-05T02:49:39.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.754 seconds
+[2025-10-05T02:58:53.736+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:58:53.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T02:58:53.739+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.739+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:58:53.834+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.833+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T02:58:53.836+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.835+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T02:58:53.838+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.838+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T02:58:53.839+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.839+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T02:58:54.680+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:58:54.763+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:54.762+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:58:54.782+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:54.781+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T02:58:54.801+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 1.071 seconds
+[2025-10-05T02:59:25.384+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:25.385+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T02:59:25.387+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.387+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:25.426+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.426+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T02:59:25.427+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.427+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T02:59:25.428+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.428+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T02:59:25.429+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.429+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T02:59:25.946+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:26.020+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:26.019+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:59:26.037+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:26.037+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T02:59:26.062+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.683 seconds
+[2025-10-05T02:59:56.654+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:56.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T02:59:56.657+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.657+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:56.685+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.685+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T02:59:56.686+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.686+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T02:59:56.687+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.687+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T02:59:56.687+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.687+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T02:59:57.188+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T02:59:57.265+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:57.264+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:59:57.280+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:57.280+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T02:59:57.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.649 seconds
+[2025-10-05T03:00:27.604+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:27.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:00:27.607+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.606+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:27.637+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.637+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:00:27.638+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.638+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:00:27.639+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.639+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:00:27.640+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.640+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:00:28.241+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:28.311+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:28.311+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:00:28.327+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:28.326+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:00:28.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.743 seconds
+[2025-10-05T03:00:58.557+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:58.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:00:58.560+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:58.592+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.591+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:00:58.593+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.593+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:00:58.594+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.594+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:00:58.595+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.595+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:00:59.106+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:00:59.179+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:59.179+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:00:59.196+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:59.196+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:00:59.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.662 seconds
+[2025-10-05T03:01:29.381+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:01:29.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:01:29.384+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.384+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:01:29.417+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.417+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:01:29.418+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.418+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:01:29.419+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.419+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:01:29.420+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.420+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:01:29.869+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:01:29.946+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.945+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:01:29.962+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.962+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:01:29.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.602 seconds
+[2025-10-05T03:02:00.025+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:00.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:02:00.029+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.028+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:00.063+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.063+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:02:00.064+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.064+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:02:00.065+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.065+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:02:00.066+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.066+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:02:00.609+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:00.680+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.680+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:02:00.696+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:00.696+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:02:00.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.692 seconds
+[2025-10-05T03:02:30.759+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:30.761+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:02:30.763+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.763+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:30.796+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.795+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:02:30.797+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.797+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:02:30.798+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.798+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:02:30.798+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.798+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:02:31.421+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:02:31.496+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:31.496+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:02:31.512+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:31.512+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:02:31.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.774 seconds
+[2025-10-05T03:03:02.086+0000] {processor.py:186} INFO - Started process (PID=426) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:02.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:03:02.089+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.089+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:02.119+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.119+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:03:02.121+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.121+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:03:02.122+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.122+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:03:02.123+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.123+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:03:02.644+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:02.721+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.721+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:03:02.740+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:02.740+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:03:02.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.675 seconds
+[2025-10-05T03:03:33.213+0000] {processor.py:186} INFO - Started process (PID=442) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:33.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:03:33.216+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.216+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:33.249+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.248+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:03:33.250+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.250+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:03:33.251+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.251+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:03:33.252+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.251+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:03:33.820+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:03:33.898+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.897+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:03:33.918+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:33.918+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:03:33.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.749 seconds
+[2025-10-05T03:04:04.543+0000] {processor.py:186} INFO - Started process (PID=461) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:04.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:04:04.546+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:04.546+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:04.580+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:04.580+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:04:04.581+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:04.581+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:04:04.582+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:04.582+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:04:04.583+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:04.583+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:04:05.343+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:05.421+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:05.421+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:04:05.439+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:05.439+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:04:05.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.919 seconds
+[2025-10-05T03:04:35.963+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:35.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:04:35.966+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:35.966+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:36.000+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.000+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:04:36.002+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.001+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:04:36.003+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.003+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:04:36.004+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.004+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:04:36.652+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:04:36.730+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.730+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:04:36.750+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:36.749+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:04:36.775+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.818 seconds
+[2025-10-05T03:05:06.829+0000] {processor.py:186} INFO - Started process (PID=506) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:06.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:05:06.832+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:06.831+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:06.863+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:06.863+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:05:06.864+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:06.864+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:05:06.865+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:06.865+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:05:06.865+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:06.865+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:05:07.479+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:07.556+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:07.555+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:05:07.574+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:07.574+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:05:07.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.778 seconds
+[2025-10-05T03:05:37.848+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:37.849+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:05:37.852+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:37.852+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:37.887+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:37.887+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:05:37.889+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:37.888+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:05:37.889+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:37.889+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:05:37.890+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:37.890+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:05:38.464+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:05:38.535+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:38.535+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:05:38.555+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:38.555+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:05:38.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.738 seconds
+[2025-10-05T03:06:08.657+0000] {processor.py:186} INFO - Started process (PID=543) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:08.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:06:08.660+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:08.660+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:08.688+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:08.687+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:06:08.689+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:08.689+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:06:08.690+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:08.690+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:06:08.691+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:08.691+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:06:09.194+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:09.273+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:09.272+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:06:09.290+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:09.290+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:06:09.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.654 seconds
+[2025-10-05T03:06:39.391+0000] {processor.py:186} INFO - Started process (PID=559) to work on /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:39.392+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/train_forecast_stock_prices.py for tasks to queue
+[2025-10-05T03:06:39.394+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:39.394+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:39.427+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:39.427+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-05T03:06:39.428+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:39.428+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-05T03:06:39.429+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:39.429+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-05T03:06:39.429+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:39.429+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-05T03:06:40.011+0000] {processor.py:925} INFO - DAG(s) 'daily_stock_price_forecasting' retrieved from /opt/airflow/dags/train_forecast_stock_prices.py
+[2025-10-05T03:06:40.086+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:40.086+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:06:40.103+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:40.103+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_stock_price_forecasting to 2025-10-05 00:30:00+00:00, run_after=2025-10-06 00:30:00+00:00
+[2025-10-05T03:06:40.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/train_forecast_stock_prices.py took 0.744 seconds

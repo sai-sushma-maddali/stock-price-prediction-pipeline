@@ -1780,3 +1780,163 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.79s           2025-10-05T02:49:39                      40
 /opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.74s           2025-10-05T02:49:39                      13
 ================================================================================
+[2025-10-05T02:58:52.760+0000] {manager.py:486} INFO - Processing files using up to 2 processes at a time 
+[2025-10-05T02:58:52.761+0000] {manager.py:487} INFO - Process each file at most once every 30 seconds
+[2025-10-05T02:58:52.762+0000] {manager.py:488} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-10-05T02:58:52.762+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-10-05T02:58:52.856+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-10-05T02:58:53.739+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/daily_stock_ingestion.py          206  0.04s             0           0                                                   0
+/opt/airflow/dags/train_forecast_stock_prices.py    209  0.02s             0           0                                                   0
+================================================================================
+[2025-10-05T02:59:22.313+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  1.09s           2025-10-05T02:58:54                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.66s           2025-10-05T02:58:54                      13
+================================================================================
+[2025-10-05T02:59:50.926+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.71s           2025-10-05T02:59:26                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.45s           2025-10-05T02:59:25                      13
+================================================================================
+[2025-10-05T03:00:19.912+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.67s           2025-10-05T02:59:57                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.60s           2025-10-05T02:59:56                      13
+================================================================================
+[2025-10-05T03:00:48.850+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.77s           2025-10-05T03:00:28                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.59s           2025-10-05T03:00:27                      13
+================================================================================
+[2025-10-05T03:01:17.578+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.69s           2025-10-05T03:00:59                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.41s           2025-10-05T03:00:58                      13
+================================================================================
+[2025-10-05T03:01:46.109+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.63s           2025-10-05T03:01:29                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.60s           2025-10-05T03:01:29                      13
+================================================================================
+[2025-10-05T03:02:14.828+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.72s           2025-10-05T03:02:00                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.58s           2025-10-05T03:01:59                      13
+================================================================================
+[2025-10-05T03:02:43.509+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.80s           2025-10-05T03:02:31                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.58s           2025-10-05T03:02:30                      13
+================================================================================
+[2025-10-05T03:03:11.830+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.70s           2025-10-05T03:03:02                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.50s           2025-10-05T03:03:01                      13
+================================================================================
+[2025-10-05T03:03:40.052+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.79s           2025-10-05T03:03:33                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.59s           2025-10-05T03:03:32                      13
+================================================================================
+[2025-10-05T03:03:52.886+0000] {manager.py:832} INFO - Searching for files in /opt/airflow/dags
+[2025-10-05T03:03:52.928+0000] {manager.py:835} INFO - There are 2 files in /opt/airflow/dags
+[2025-10-05T03:04:08.500+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.95s           2025-10-05T03:04:05                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.60s           2025-10-05T03:04:03                      13
+================================================================================
+[2025-10-05T03:04:36.791+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.85s           2025-10-05T03:04:36                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.60s           2025-10-05T03:04:34                      13
+================================================================================
+[2025-10-05T03:05:04.908+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.85s           2025-10-05T03:04:36                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.60s           2025-10-05T03:04:34                      13
+================================================================================
+[2025-10-05T03:05:33.152+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.81s           2025-10-05T03:05:07                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.44s           2025-10-05T03:05:05                      13
+================================================================================
+[2025-10-05T03:06:01.650+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.77s           2025-10-05T03:05:38                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.59s           2025-10-05T03:05:36                      13
+================================================================================
+[2025-10-05T03:06:30.502+0000] {manager.py:1008} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/train_forecast_stock_prices.py                           1           0  0.68s           2025-10-05T03:06:09                      40
+/opt/airflow/dags/daily_stock_ingestion.py                                 1           0  0.58s           2025-10-05T03:06:07                      13
+================================================================================

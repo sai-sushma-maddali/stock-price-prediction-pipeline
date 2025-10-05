@@ -1280,3 +1280,115 @@
 [2025-10-05T02:49:39.181+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:49:39.181+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-10-05T02:49:39.208+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:49:39.208+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
 [2025-10-05T02:49:39.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.702 seconds
+[2025-10-05T02:58:53.725+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:58:53.727+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T02:58:53.730+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:53.729+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:58:54.289+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:58:54.302+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:54.302+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:58:54.324+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:58:54.324+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T02:58:54.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.628 seconds
+[2025-10-05T02:59:25.375+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:25.376+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T02:59:25.378+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.378+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:25.734+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:25.749+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.748+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:59:25.770+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:25.770+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T02:59:25.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.427 seconds
+[2025-10-05T02:59:56.045+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:56.046+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T02:59:56.048+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.048+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:56.398+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T02:59:56.580+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.410+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T02:59:56.598+0000] {logging_mixin.py:190} INFO - [2025-10-05T02:59:56.598+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T02:59:56.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.573 seconds
+[2025-10-05T03:00:27.003+0000] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:27.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:00:27.006+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.006+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:27.518+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:27.529+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.528+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:00:27.545+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:27.545+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:00:27.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.560 seconds
+[2025-10-05T03:00:58.134+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:58.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:00:58.137+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.137+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:58.469+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:00:58.482+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.482+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:00:58.501+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:00:58.500+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:00:58.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.387 seconds
+[2025-10-05T03:01:28.762+0000] {processor.py:186} INFO - Started process (PID=373) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:28.763+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:01:28.767+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:28.766+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:29.115+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:29.128+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.128+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:01:29.319+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:29.318+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:01:29.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.577 seconds
+[2025-10-05T03:01:59.421+0000] {processor.py:186} INFO - Started process (PID=389) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:59.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:01:59.424+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:59.424+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:59.927+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:01:59.938+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:59.938+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:01:59.957+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:01:59.957+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:01:59.971+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.555 seconds
+[2025-10-05T03:02:30.165+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:02:30.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:02:30.168+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.167+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:02:30.506+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:02:30.682+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.681+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:02:30.697+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:02:30.697+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:02:30.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.553 seconds
+[2025-10-05T03:03:00.931+0000] {processor.py:186} INFO - Started process (PID=421) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:00.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:03:00.934+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:00.934+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:01.345+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:01.358+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:01.358+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:03:01.380+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:01.379+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:03:01.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.472 seconds
+[2025-10-05T03:03:32.054+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:32.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:03:32.057+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:32.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:32.397+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:03:32.408+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:32.408+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:03:32.594+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:03:32.594+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:03:32.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.558 seconds
+[2025-10-05T03:04:03.259+0000] {processor.py:186} INFO - Started process (PID=454) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:03.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:04:03.261+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:03.261+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:03.771+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:03.781+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:03.781+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:04:03.798+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:03.798+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:04:03.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.568 seconds
+[2025-10-05T03:04:34.339+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:34.340+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:04:34.342+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:34.342+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:34.698+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:04:34.876+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:34.876+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:04:34.891+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:04:34.891+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:04:34.906+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.572 seconds
+[2025-10-05T03:05:05.365+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:05.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:05:05.368+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:05.368+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:05.718+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:05.730+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:05.729+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:05:05.748+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:05.748+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:05:05.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.415 seconds
+[2025-10-05T03:05:36.232+0000] {processor.py:186} INFO - Started process (PID=517) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:36.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:05:36.235+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:36.235+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:36.577+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:05:36.591+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:36.590+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:05:36.771+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:05:36.771+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:05:36.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.560 seconds
+[2025-10-05T03:06:07.053+0000] {processor.py:186} INFO - Started process (PID=538) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:07.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:06:07.056+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:07.056+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:07.553+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:07.564+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:07.563+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:06:07.581+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:07.581+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:06:07.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.547 seconds
+[2025-10-05T03:06:37.789+0000] {processor.py:186} INFO - Started process (PID=554) to work on /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:37.791+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/daily_stock_ingestion.py for tasks to queue
+[2025-10-05T03:06:37.793+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:37.793+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:38.129+0000] {processor.py:925} INFO - DAG(s) 'daily_yfinance_stock_ingestion' retrieved from /opt/airflow/dags/daily_stock_ingestion.py
+[2025-10-05T03:06:38.296+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:38.296+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-10-05T03:06:38.312+0000] {logging_mixin.py:190} INFO - [2025-10-05T03:06:38.312+0000] {dag.py:4156} INFO - Setting next_dagrun for daily_yfinance_stock_ingestion to 2025-10-05 00:00:00+00:00, run_after=2025-10-06 00:00:00+00:00
+[2025-10-05T03:06:38.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/daily_stock_ingestion.py took 0.553 seconds

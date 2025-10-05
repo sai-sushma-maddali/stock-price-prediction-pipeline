@@ -84,7 +84,7 @@ with DAG(
     start_date = datetime(2025,10,4),
     catchup=False,
     tags=['ML', 'ELT'],
-    schedule = '30 2 * * *'
+    schedule_interval = "30 0 * * *"  # Daily at 12:30 AM UTC
 ) as dag:
 
     # train_input_table = "raw.yfinance_stock"

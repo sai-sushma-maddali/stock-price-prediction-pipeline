@@ -127,7 +127,7 @@ trigger_forecast = TriggerDagRunOperator(
     dag_id="daily_yfinance_stock_ingestion",
     start_date=datetime(2025, 10, 4),
     catchup=False,
-    schedule_interval="0 0 * * *",
+    schedule_interval="0 0 * * *",# Daily at midnight UTC
     tags=["ETL"]
 )
 def etl_pipeline():
