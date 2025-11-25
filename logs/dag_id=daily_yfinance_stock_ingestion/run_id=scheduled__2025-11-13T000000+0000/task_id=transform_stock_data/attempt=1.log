@@ -1,0 +1,31 @@
+[2025-11-14T18:15:53.566+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-14T18:15:53.586+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.transform_stock_data scheduled__2025-11-13T00:00:00+00:00 [queued]>
+[2025-11-14T18:15:53.596+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.transform_stock_data scheduled__2025-11-13T00:00:00+00:00 [queued]>
+[2025-11-14T18:15:53.597+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-14T18:15:53.742+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): transform_stock_data> on 2025-11-13 00:00:00+00:00
+[2025-11-14T18:15:53.753+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=274) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-14T18:15:53.755+0000] {standard_task_runner.py:72} INFO - Started process 289 to run task
+[2025-11-14T18:15:53.752+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_yfinance_stock_ingestion', 'transform_stock_data', 'scheduled__2025-11-13T00:00:00+00:00', '--job-id', '155', '--raw', '--subdir', 'DAGS_FOLDER/daily_stock_ingestion.py', '--cfg-path', '/tmp/tmpjja7_fxh']
+[2025-11-14T18:15:53.756+0000] {standard_task_runner.py:105} INFO - Job 155: Subtask transform_stock_data
+[2025-11-14T18:15:53.807+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_yfinance_stock_ingestion.transform_stock_data scheduled__2025-11-13T00:00:00+00:00 [running]> on host 5080658c6a7c
+[2025-11-14T18:15:54.050+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_yfinance_stock_ingestion' AIRFLOW_CTX_TASK_ID='transform_stock_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T00:00:00+00:00'
+[2025-11-14T18:15:54.052+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-14T18:15:54.058+0000] {python.py:240} INFO - Done. Returned value was:     StockSymbol       Date        Open  ...         Min         Max    Volume
+0          GOOG 2025-03-03  173.169196  ...  167.098858  174.435101  24122000
+1          AMZN 2025-03-03  213.350006  ...  202.550003  214.009995  42948400
+2          GOOG 2025-03-04  167.397887  ...  166.999169  174.599556  30711400
+3          AMZN 2025-03-04  200.110001  ...  197.429993  206.800003  60853100
+4          GOOG 2025-03-05  171.763761  ...  170.378233  175.182682  18848000
+..          ...        ...         ...  ...         ...         ...       ...
+355        AMZN 2025-11-12  250.240005  ...  243.750000  250.369995  31190100
+356        GOOG 2025-11-13  282.984985  ...  278.000000  283.510010  18035600
+357        AMZN 2025-11-13  243.050003  ...  236.500000  243.750000  41348500
+358        GOOG 2025-11-14  271.980011  ...  271.410004  279.149994  10690178
+359        AMZN 2025-11-14  235.119995  ...  232.889999  238.729996  20396705
+
+[360 rows x 7 columns]
+[2025-11-14T18:15:54.101+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-14T18:15:54.101+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_yfinance_stock_ingestion, task_id=transform_stock_data, run_id=scheduled__2025-11-13T00:00:00+00:00, execution_date=20251113T000000, start_date=20251114T181553, end_date=20251114T181554
+[2025-11-14T18:15:54.132+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-14T18:15:54.156+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-14T18:15:54.158+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

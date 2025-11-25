@@ -1,0 +1,20 @@
+[2025-11-24T19:29:40.089+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-24T19:29:40.117+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.trigger_forecast_dag scheduled__2025-11-23T00:00:00+00:00 [queued]>
+[2025-11-24T19:29:40.130+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.trigger_forecast_dag scheduled__2025-11-23T00:00:00+00:00 [queued]>
+[2025-11-24T19:29:40.133+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-11-24T19:29:40.153+0000] {taskinstance.py:2888} INFO - Executing <Task(TriggerDagRunOperator): trigger_forecast_dag> on 2025-11-23 00:00:00+00:00
+[2025-11-24T19:29:40.175+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1273) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-24T19:29:40.178+0000] {standard_task_runner.py:72} INFO - Started process 1276 to run task
+[2025-11-24T19:29:40.176+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_yfinance_stock_ingestion', 'trigger_forecast_dag', 'scheduled__2025-11-23T00:00:00+00:00', '--job-id', '247', '--raw', '--subdir', 'DAGS_FOLDER/daily_stock_ingestion.py', '--cfg-path', '/tmp/tmp0xqfw8bq']
+[2025-11-24T19:29:40.180+0000] {standard_task_runner.py:105} INFO - Job 247: Subtask trigger_forecast_dag
+[2025-11-24T19:29:40.696+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_yfinance_stock_ingestion.trigger_forecast_dag scheduled__2025-11-23T00:00:00+00:00 [running]> on host 70570c35513f
+[2025-11-24T19:29:40.829+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_yfinance_stock_ingestion' AIRFLOW_CTX_TASK_ID='trigger_forecast_dag' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T00:00:00+00:00'
+[2025-11-24T19:29:40.832+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-24T19:29:40.953+0000] {trigger_dagrun.py:257} INFO - Waiting for daily_stock_price_forecasting on 2025-11-24 19:29:40.836264+00:00 to become allowed state ['success'] ...
+[2025-11-24T19:30:44.798+0000] {trigger_dagrun.py:257} INFO - Waiting for daily_stock_price_forecasting on 2025-11-24 19:29:40.836264+00:00 to become allowed state ['success'] ...
+[2025-11-24T19:31:48.525+0000] {trigger_dagrun.py:271} INFO - daily_stock_price_forecasting finished with allowed state success
+[2025-11-24T19:31:48.540+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-24T19:31:48.541+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_yfinance_stock_ingestion, task_id=trigger_forecast_dag, run_id=scheduled__2025-11-23T00:00:00+00:00, execution_date=20251123T000000, start_date=20251124T192940, end_date=20251124T193148
+[2025-11-24T19:31:48.616+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-24T19:31:48.643+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-24T19:31:48.649+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

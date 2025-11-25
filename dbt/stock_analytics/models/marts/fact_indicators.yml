@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: fact_indicators
+    description: "Fact table with stock performance metrics for AMZN"
+    columns:
+      - name: symbol
+        description: "Stock ticker symbol"
+        tests:
+          - not_null
+          - accepted_values:
+                values: ['AMZN', 'GOOG']
+
+      - name: trade_date
+        description: "Trade date"
+        tests:
+          - not_null
+      - name: close_price
+        description: "Closing price on trade date"
+        tests:
+          - not_null
+      - name: prev_close_price
+        description: "Previous day's closing price"
+      - name: daily_return
+        description: "Daily return calculated from price change"
+      - name: ma_7
+        description: "7-day moving average of closing price"
+      - name: ma_30
+        description: "30-day moving average of closing price"
+      - name: vol_30
+        description: "30-day average trading volume"
+      - name: rsi_14
+        description: "14-day Relative Strength Index"

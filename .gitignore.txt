@@ -1,0 +1,8 @@
+# Ignore all logs
+logs/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore profile.yml
+profile.yml

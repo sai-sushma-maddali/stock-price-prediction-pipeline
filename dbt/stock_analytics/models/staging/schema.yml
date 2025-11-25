@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: RAW
+    schema: RAW
+    tables:
+      - name: yfinance_stock
+        description: "Raw stock price data loaded via Airflow"
+        columns:
+          - name: symbol
+            tests:
+              - not_null
+          - name: date
+            tests:
+              - not_null
+
+models:
+  - name: stg_prices
+    description: "Cleaned and deduplicated staging model for stock prices"
+    columns:
+      - name: symbol
+        tests:
+          - not_null
+      - name: trade_date
+        tests:
+          - not_null
+      - name: close_price
+        tests:
+          - not_null

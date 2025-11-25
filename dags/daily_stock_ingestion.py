@@ -145,6 +145,12 @@ def etl_pipeline():
         poke_interval=60,
     )
 
-    loaded >> trigger_forecast
+    
+    trigger_dbt = TriggerDagRunOperator(
+        task_id="trigger_dbt_pipeline",
+        trigger_dag_id="dbt_elt_pipeline"
+    )
+
+    loaded >> [trigger_forecast, trigger_dbt]
 
 etl_pipeline()

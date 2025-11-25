@@ -1,0 +1,25 @@
+[2025-10-28T00:00:05.515+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-28T00:00:05.526+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.load_stock_prices_snowflake scheduled__2025-10-27T00:00:00+00:00 [queued]>
+[2025-10-28T00:00:05.531+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_yfinance_stock_ingestion.load_stock_prices_snowflake scheduled__2025-10-27T00:00:00+00:00 [queued]>
+[2025-10-28T00:00:05.531+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-28T00:00:05.628+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): load_stock_prices_snowflake> on 2025-10-27 00:00:00+00:00
+[2025-10-28T00:00:05.636+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8316) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-28T00:00:05.637+0000] {standard_task_runner.py:72} INFO - Started process 8319 to run task
+[2025-10-28T00:00:05.636+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_yfinance_stock_ingestion', 'load_stock_prices_snowflake', 'scheduled__2025-10-27T00:00:00+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/daily_stock_ingestion.py', '--cfg-path', '/tmp/tmpydf2ld8w']
+[2025-10-28T00:00:05.639+0000] {standard_task_runner.py:105} INFO - Job 96: Subtask load_stock_prices_snowflake
+[2025-10-28T00:00:05.673+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_yfinance_stock_ingestion.load_stock_prices_snowflake scheduled__2025-10-27T00:00:00+00:00 [running]> on host 5080658c6a7c
+[2025-10-28T00:00:05.782+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_yfinance_stock_ingestion' AIRFLOW_CTX_TASK_ID='load_stock_prices_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-10-27T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-27T00:00:00+00:00'
+[2025-10-28T00:00:05.783+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-28T00:00:05.791+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-10-28T00:00:05.792+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-10-28T00:00:05.793+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-10-28T00:00:05.793+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-10-28T00:00:06.813+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T00:00:07.015+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T00:07:14.828+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-28T00:07:14.829+0000] {python.py:240} INFO - Done. Returned value was: Successfully loaded data into Snowflake
+[2025-10-28T00:07:14.855+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-28T00:07:14.856+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_yfinance_stock_ingestion, task_id=load_stock_prices_snowflake, run_id=scheduled__2025-10-27T00:00:00+00:00, execution_date=20251027T000000, start_date=20251028T000005, end_date=20251028T000714
+[2025-10-28T00:07:14.897+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-28T00:07:14.913+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-10-28T00:07:14.916+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

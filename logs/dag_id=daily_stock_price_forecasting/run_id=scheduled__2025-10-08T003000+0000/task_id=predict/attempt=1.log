@@ -1,0 +1,22 @@
+[2025-10-27T14:18:28.880+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-10-27T14:18:28.897+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: daily_stock_price_forecasting.predict scheduled__2025-10-08T00:30:00+00:00 [queued]>
+[2025-10-27T14:18:28.905+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: daily_stock_price_forecasting.predict scheduled__2025-10-08T00:30:00+00:00 [queued]>
+[2025-10-27T14:18:28.906+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-10-27T14:18:28.921+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): predict> on 2025-10-08 00:30:00+00:00
+[2025-10-27T14:18:28.930+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=413) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-10-27T14:18:28.930+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'daily_stock_price_forecasting', 'predict', 'scheduled__2025-10-08T00:30:00+00:00', '--job-id', '88', '--raw', '--subdir', 'DAGS_FOLDER/train_forecast_stock_prices.py', '--cfg-path', '/tmp/tmplq583hlr']
+[2025-10-27T14:18:28.931+0000] {standard_task_runner.py:105} INFO - Job 88: Subtask predict
+[2025-10-27T14:18:28.931+0000] {standard_task_runner.py:72} INFO - Started process 418 to run task
+[2025-10-27T14:18:28.982+0000] {task_command.py:467} INFO - Running <TaskInstance: daily_stock_price_forecasting.predict scheduled__2025-10-08T00:30:00+00:00 [running]> on host 5080658c6a7c
+[2025-10-27T14:18:29.062+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='daily_stock_price_forecasting' AIRFLOW_CTX_TASK_ID='predict' AIRFLOW_CTX_EXECUTION_DATE='2025-10-08T00:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-10-08T00:30:00+00:00'
+[2025-10-27T14:18:29.064+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-10-27T14:18:53.958+0000] {cursor.py:1156} INFO - Number of results in first chunk: 14
+[2025-10-27T14:18:54.785+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T14:18:55.658+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-10-27T14:18:55.660+0000] {logging_mixin.py:190} INFO - Forecasting and storing results completed successfully.
+[2025-10-27T14:18:55.661+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-10-27T14:18:55.673+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-10-27T14:18:55.674+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=daily_stock_price_forecasting, task_id=predict, run_id=scheduled__2025-10-08T00:30:00+00:00, execution_date=20251008T003000, start_date=20251027T141828, end_date=20251027T141855
+[2025-10-27T14:18:55.714+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-10-27T14:18:55.731+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-27T14:18:55.735+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
