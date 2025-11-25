@@ -5,4 +5,5 @@ logs/
 __pycache__/
 
 # Ignore profile.yml
-profile.yml
+# Ignore the specific profiles.yml file
+dbt/stock_analytics/profiles.yml
